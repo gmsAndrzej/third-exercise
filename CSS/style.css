@@ -1,4 +1,3 @@
-
 header, section, footer, aside, nav, article, figure, figcaption {
     display: block;
 }
@@ -7,7 +6,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 body {
     color: #666666;
     background-color: #f9f8f6;
-    background-image: url("../../../src/dark-wood.jpg");
+    background-image: url("../../../src/rezystory11.png");
     background-position: center;
     font-family: "Lato", sans-serif;
     line-height: 1.4em;
@@ -42,47 +41,36 @@ nav, footer {
     clear: both;
     color: #ffffff;
     background-color: #aeaca8;
-    height: 30px;}
+    height: 30px;
+}
 
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
 
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
 
+nav li a {
+    color: #ffffff;
+}
 
+nav li a:hover, nav li a.current {
+    color: #000000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
 .tableContainer {
     float: left;
     clear: both;
-   
+
     color: rgb(13, 13, 14);
 }
 
 .captionTable {
-  
+
     caption-side: top;
     text-align: auto;
     margin-top: 30px 30px;
@@ -92,7 +80,7 @@ nav, footer {
 }
 
 .tableCell {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -100,10 +88,8 @@ nav, footer {
 }
 
 
-
-
 .tableCellSilver {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -113,7 +99,7 @@ nav, footer {
 
 
 .tableCellGold {
-  
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -122,7 +108,7 @@ nav, footer {
 }
 
 .tableCellBlack {
-    
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -132,7 +118,7 @@ nav, footer {
 }
 
 .tableCellBrown {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -141,7 +127,7 @@ nav, footer {
 }
 
 .tableCellRed {
-    
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -150,7 +136,7 @@ nav, footer {
 }
 
 .tableCellOrange {
-    
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -159,7 +145,7 @@ nav, footer {
 }
 
 .tableCellYellow {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -168,7 +154,7 @@ nav, footer {
 }
 
 .tableCellGreen {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -177,7 +163,7 @@ nav, footer {
 }
 
 .tableCellBlue {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -186,7 +172,7 @@ nav, footer {
 }
 
 .tableCellViolet {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -195,7 +181,7 @@ nav, footer {
 }
 
 .tableCellGrey {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -204,7 +190,7 @@ nav, footer {
 }
 
 .tableCellWhite {
-   
+
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
@@ -212,30 +198,28 @@ nav, footer {
     background-color: #FFFFFF;
 }
 
-
-
 .table {
-   
+    float: left;
     border-collapse: collapse;
-   
+    width: 100%;
 }
 
 .tableRow:nth-child(even) {
-   
+
     background-color: #eee;
 
 }
 
 .tableRow:hover {
-   
+
     background-color: #ddd;
 }
 
 
 .pictureOne {
 
-   
-    
+
+
     border: 4px solid #9595b4;
     padding: 5px;
     border-radius: 10px;
@@ -243,7 +227,7 @@ nav, footer {
 
 .pictureTwo {
     float: right;
-   
+
     border: 4px solid #9595b4;
     padding: 5px;
     border-radius: 10px;
@@ -251,60 +235,79 @@ nav, footer {
 }
 
 
-
-
-
-   
-   
-    
-
-
-
 section.courses {
     float: left;
-    width: 600px;
-    border-right: 1px solid #eeeeee;}
-  article {
+    width: 940px;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
     clear: both;
     overflow: auto;
-    width: 100%;}
-  hgroup {
-    margin-top: 40px;}
-    figure {
-        float: left;
-        width: 290px;
-        height: 220px;
-        padding: 5px;
-        margin: 20px;
-        border: 1px solid #eeeeee;}
-      figcaption {
-        font-size: 90%;
-        text-align: left;}
-      aside {
-        width: 230px;
-        float: right;
-        padding: 0px 0px 0px 20px;}
-      aside section a {
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #eeeeee;}
-      aside section a:hover {
-        color: #985d6a;
-        background-color: #efefef;}
-      a {
-        color: #de6581;
-        text-decoration: none;}
-      h1, h2, h3 {
-        font-weight: normal;}
-      h2 {
-        margin: 10px 0px 5px 0px;
-        padding: 0px;}
-      h3 {
-        margin: 0px 0px 10px 0px;
-        color: #de6581;}
-      aside h2 {
-        padding: 30px 0px 10px 0px;
-        color: #de6581;}
-      footer {
-        font-size: 80%;
-        padding: 7px 0px 0px 20px;}
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+figcaption {
+
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: right;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
