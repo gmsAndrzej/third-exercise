@@ -4,9 +4,11 @@ header, section, footer, aside, nav, article, figure, figcaption {
 
 
 body {
+    
+  
     color: #666666;
     background-color: #f9f8f6;
-    background-image: url("../../../src/rezystory11.png");
+    background-image: url("../src/rezystory11.png");
     background-position: center;
     font-family: "Lato", sans-serif;
     line-height: 1.4em;
@@ -15,17 +17,19 @@ body {
 
 
 
-.container {
+main {
 
     width: 940px;
-    margin: 20px auto 20px auto;
+    margin: 0px auto 0px auto;
     border: 2px solid #000000;
     background-color: #ffffff;
 }
 
 header {
+    margin: 0px auto 0px auto;
+    width: 940px;
     height: 160px;
-    background-image: url("../../../src/rezystory2.png");
+    background-image: url("../src/rezystory2.png");
 }
 
 h1 {
@@ -37,15 +41,16 @@ h1 {
 
 
 
-nav, footer {
-    clear: both;
+nav {
+    margin: 0px auto 0px auto;
+    width: 940px;
     color: #ffffff;
     background-color: #aeaca8;
     height: 30px;
 }
 
 nav ul {
-    margin: 0px;
+    margin: 0px auto 0px auto;
     padding: 5px 0px 5px 30px;
 }
 
@@ -64,7 +69,7 @@ nav li a:hover, nav li a.current {
 
 .tableContainer {
     float: left;
-    clear: both;
+  
 
     color: rgb(13, 13, 14);
 }
@@ -308,6 +313,10 @@ aside h2 {
 }
 
 footer {
+    
+    clear: both;
+    margin: 0px auto 0px auto;
+    width: 940px;
     font-size: 80%;
-    padding: 7px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
 }
