@@ -34,8 +34,9 @@ main {
     padding: 20px;
     width: 940px;
     margin: 0px auto 0px auto;
-   
-    background-color: #dce1e9;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: #e0e0e0;
 }
 
 header {
@@ -44,6 +45,7 @@ header {
     margin: 0px auto 0px auto;
     width: 940px;
     height: 160px;
+    border: 1px solid white;
     background-image: url("../src/rezystory2.png");
 }
 
@@ -52,14 +54,14 @@ h1 {
     text-indent: 400px;
     width: 940px;
     height: 130px;
-    margin: 0px;
+    color: #eee;
+    padding-top: 50px;
 }
-
-
 
 nav {
 
-
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     padding-right: 20px;
     margin: 0px auto 0px auto;
     width: 940px;
@@ -240,8 +242,6 @@ nav li a:hover, nav li a.current {
 }
 
 
-
-
 article.function {
 
     text-align: justify;
@@ -255,22 +255,15 @@ article.action {
 }
 
 
-
-
-
-
-
 article.ExamplePictureOne {
-margin-left: 50px;
+    margin-left: 50px;
     float: left;
 
 }
 
 article.ExamplePictureTwo {
     float: right;
-  margin-right: 50px;
-
-
+    margin-right: 50px;
 
 
 }
@@ -298,5 +291,6 @@ footer {
     margin: 0px auto 0px auto;
     width: 940px;
     font-size: 80%;
-   border: solid 1px #000000;
-} 
+    border: solid 1px white;
+    background-color: #E0e0e0;
+}
