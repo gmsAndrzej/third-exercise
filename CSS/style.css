@@ -36,7 +36,7 @@ main {
     margin: 0px auto 0px auto;
     border-left: 1px solid white;
     border-right: 1px solid white;
-    background-color: #e0e0e0;
+    background-color: #efefef;
 }
 
 header {
@@ -51,9 +51,8 @@ header {
 
 h1 {
 
-    text-indent: 400px;
-    width: 940px;
-    height: 130px;
+    text-indent:350px;
+  font-size: 50px;
     color: #eee;
     padding-top: 50px;
 }
@@ -272,6 +271,7 @@ article.types {
     clear: both;
     text-align: justify;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -281,7 +281,9 @@ h2 {
 
 h4 {
     margin: 0px 0px 10px 0px;
-    color: #7765de;
+    color: black;
+    font-size: 18px;
+  
 }
 
 
