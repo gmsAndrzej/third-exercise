@@ -28,7 +28,19 @@ body {
     margin: 0px;
 }
 
+.dark {
 
+    color: #eee;
+    background: #222;
+
+
+}
+
+.button {
+
+    color: #9b9494;
+    margin-left: 300px;
+}
 
 main {
     padding: 20px;
@@ -263,13 +275,17 @@ article.action {
 
 article.ExamplePictureOne {
     margin-left: 50px;
+    margin-top: 20px;
     float: left;
+    text-align: center;
 
 }
 
 article.ExamplePictureTwo {
     float: right;
+    margin-top: 20px;
     margin-right: 50px;
+    text-align: center;
 
 
 }
