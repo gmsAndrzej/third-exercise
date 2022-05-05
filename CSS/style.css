@@ -51,10 +51,11 @@ header {
 
 h1 {
 
-    text-indent:350px;
-  font-size: 50px;
+    text-indent: 350px;
+    font-size: 50px;
     color: #eee;
     padding-top: 50px;
+    text-shadow: 3px 3px 8px #504d4d;
 }
 
 nav {
@@ -227,6 +228,9 @@ nav li a:hover, nav li a.current {
     float: left;
     border-collapse: collapse;
     width: 100%;
+    outline: 1px solid #270101;
+    text-shadow: 10px #666666;
+
 }
 
 .tableRow:nth-child(even) {
@@ -245,12 +249,15 @@ article.function {
 
     text-align: justify;
     padding-bottom: 10px;
+    line-height: 1.5;
+
 }
 
 article.action {
 
     text-align: justify;
     padding-bottom: 10px;
+    line-height: 1.5;
 }
 
 
@@ -272,6 +279,7 @@ article.types {
     text-align: justify;
     padding-bottom: 10px;
     padding-top: 10px;
+    line-height: 1.5;
 }
 
 h2 {
@@ -283,7 +291,9 @@ h4 {
     margin: 0px 0px 10px 0px;
     color: black;
     font-size: 18px;
-  
+    text-shadow: 1px 1px 4px #383636;
+
+
 }
 
 
@@ -295,4 +305,6 @@ footer {
     font-size: 80%;
     border: solid 1px white;
     background-color: #E0e0e0;
+    text-shadow: 1px 1px 4px #383636;
+
 }
